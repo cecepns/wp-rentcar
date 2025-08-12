@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Menu, X, Phone, MapPin } from 'lucide-react';
+import Logo from '../assets/logo.jpeg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/public/logo.jpeg" 
+              src={Logo} 
               alt="WP RENTCAR Logo" 
               className="h-auto w-14 md:w-24 object-contain"
             />

@@ -1,4 +1,5 @@
 import { Phone, MapPin, Mail, MessageCircle } from 'lucide-react';
+import Logo from '../assets/logo.jpeg';
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-6">
               <img 
-                src="/public/logo.jpeg" 
+                src={Logo} 
                 alt="WP RENTCAR Logo" 
                 className="h-10 w-10 object-contain"
               />
