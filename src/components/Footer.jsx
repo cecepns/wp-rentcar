@@ -1,4 +1,4 @@
-import { Phone, MapPin, Mail, MessageCircle } from 'lucide-react';
+import { Phone, MapPin, Mail, MessageCircle, Instagram } from 'lucide-react';
 import Logo from '../assets/logo.jpeg';
 
 const Footer = () => {
@@ -31,6 +31,14 @@ const Footer = () => {
                 className="bg-green-500 p-2 rounded-lg hover:bg-green-600 transition-colors"
               >
                 <MessageCircle size={20} />
+              </a>
+              <a 
+                href="https://www.instagram.com/wp.rentcar?igsh=M3d2dXRvbTdjeWl1" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-gradient-to-r from-purple-500 to-pink-500 p-2 rounded-lg hover:from-purple-600 hover:to-pink-600 transition-colors"
+              >
+                <Instagram size={20} />
               </a>
               <a 
                 href="tel:081350002354"
