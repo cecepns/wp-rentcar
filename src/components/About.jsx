@@ -59,7 +59,7 @@ const About = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white">Driver Berpengalaman</h4>
-                  <p className="text-white">Tim driver profesional yang menguasai rute di Palembang dan sekitarnya</p>
+                  <p className="text-white">Tim driver profesional yang menguasai </p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">

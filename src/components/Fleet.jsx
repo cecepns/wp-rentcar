@@ -3,14 +3,14 @@ import Avanza from '../assets/avanza.png';
 import Fortuner from '../assets/fortuner.png';
 import Innova from '../assets/innova.png';
 import Toyota from '../assets/toyota.png';
-import Xenia from '../assets/xenia.png';
+// import Xenia from '../assets/xenia.png';
 import Sigra from '../assets/sigra.png';
 
 
 const Fleet = () => {
   const cars = [
     {
-      name: "Toyota Avanza",
+      name: "Avanza / Xenia",
       category: "MPV",
       passengers: 6,
       transmission: "Manual/Matic",
@@ -49,18 +49,18 @@ const Fleet = () => {
       image: Toyota,
       features: ["AC", "Audio System", "Power Steering", "USB Port"]
     },
+    // {
+    //   name: "Daihatsu Xenia",
+    //   category: "MPV",
+    //   passengers: 7,
+    //   transmission: "Manual/Matic",
+    //   fuel: "Bensin",
+    //   // price: "280K",
+    //   image: Xenia,
+    //   features: ["AC", "Audio System", "Power Steering", "USB Port"]
+    // },
     {
-      name: "Daihatsu Xenia",
-      category: "MPV",
-      passengers: 7,
-      transmission: "Manual/Matic",
-      fuel: "Bensin",
-      // price: "280K",
-      image: Xenia,
-      features: ["AC", "Audio System", "Power Steering", "USB Port"]
-    },
-    {
-      name: "Daihatsu Sigra",
+      name: "Calya / Sigra",
       category: "MPV",
       passengers: 7,
       transmission: "Manual/Matic",

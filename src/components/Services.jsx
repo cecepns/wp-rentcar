@@ -1,4 +1,4 @@
-import { Car, Users, MapPin, Clock, DollarSign, Headphones } from 'lucide-react';
+import { Car, Users, MapPin, Clock, DollarSign, Headphones, Key, UserCheck, Compass } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -37,6 +37,24 @@ const Services = () => {
       title: "Konsultasi Gratis",
       description: "Konsultasi gratis untuk memilih mobil yang sesuai kebutuhan Anda.",
       features: ["Rekomendasi ahli", "Gratis konsultasi", "Solusi terbaik"]
+    },
+    {
+      icon: <Key className="text-primary-600" size={48} />,
+      title: "Lepas Kunci",
+      description: "Layanan ini harus menggunakan foto asli KK, KTP, SIM, & ID Card. Anda harus melakukan survey juga, sekaligus mengisi data surat perjalanan dinas dan ada kontak jaminan.",
+      features: ["Foto dokumen asli", "Survey lokasi", "Data perjalanan", "Kontak jaminan"]
+    },
+    {
+      icon: <UserCheck className="text-primary-600" size={48} />,
+      title: "Plus Driver",
+      description: "Layanan ini terbilang favorit karena banyak konsumen yang merasa aman menyewa mobil didampingi dengan sopir.",
+      features: ["Driver berpengalaman", "Keamanan terjamin", "Layanan favorit", "Pendampingan profesional"]
+    },
+    {
+      icon: <Compass className="text-primary-600" size={48} />,
+      title: "Travel & Tour",
+      description: "Layanan ini dikhususkan bagi Anda yang ingin menyewa kendaraan untuk travelling di Kota Palembang atau tour ke luar daerah.",
+      features: ["Wisata Palembang", "Tour luar daerah", "Paket travelling", "Destinasi fleksibel"]
     }
   ];
 

@@ -15,7 +15,7 @@ const Hero = () => {
             </h1>
             <p className="text-base sm:text-lg lg:text-xl mb-6 lg:mb-8 text-gray-100 leading-relaxed">
               WP RENTCAR menyediakan layanan rental mobil berkualitas dengan armada terawat 
-              dan pelayanan terbaik untuk perjalanan Anda di Palembang dan sekitarnya.
+              dan pelayanan terbaik untuk perjalanan Anda.
             </p>
             
             {/* Features */}
