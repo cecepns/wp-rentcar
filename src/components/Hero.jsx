@@ -1,9 +1,12 @@
-import { Car, Shield, Clock, Star } from 'lucide-react';
-import PosterBanner from '../assets/poster-banner.png';
+import { Car, Shield, Clock, Star } from "lucide-react";
+import PosterBanner from "../assets/poster-banner.png";
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-28 pb-14 md:pb-20 min-h-screen gradient-bg flex items-center relative overflow-hidden">
+    <section
+      id="home"
+      className="pt-28 pb-14 md:pb-20 min-h-screen gradient-bg flex items-center relative overflow-hidden"
+    >
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-4 lg:gap-12 items-center">
           {/* Left Content */}
@@ -14,10 +17,11 @@ const Hero = () => {
               di Palembang
             </h1>
             <p className="text-base sm:text-lg lg:text-xl mb-6 lg:mb-8 text-gray-100 leading-relaxed">
-              WP RENTCAR menyediakan layanan rental mobil berkualitas dengan armada terawat 
-              dan pelayanan terbaik untuk perjalanan Anda.
+              Wp RENTCAR adalah penyedia jasa rental mobil menggunakan sistem
+              Lepas kunci dan plus driver dengan armada terbaik dan terawat baik
+              untuk layanan dalam kota palembang ataupun Luar kota Palembang
             </p>
-            
+
             {/* Features */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 lg:gap-4 mb-6 lg:mb-8">
               <div className="flex items-center space-x-2 lg:space-x-3">
@@ -36,16 +40,16 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 lg:gap-4">
-              <a 
-                href="https://wa.me/6281350002354" 
-                target="_blank" 
+              <a
+                href="https://wa.me/6281350002354"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yellow-400 text-gray-900 px-6 lg:px-8 py-3 lg:py-4 rounded-lg font-semibold hover:bg-yellow-300 transition-colors text-center text-sm lg:text-base"
               >
                 Hubungi Sekarang
               </a>
-              <a 
-                href="#fleet" 
+              <a
+                href="#fleet"
                 className="border-2 border-white text-white px-6 lg:px-8 py-3 lg:py-4 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition-colors text-center text-sm lg:text-base"
               >
                 Lihat Armada
@@ -54,11 +58,14 @@ const Hero = () => {
           </div>
 
           {/* Right Content - Hero Image */}
-          <div className="relative order-1 lg:order-2 mb-0" data-aos="fade-left">
+          <div
+            className="relative order-1 lg:order-2 mb-0"
+            data-aos="fade-left"
+          >
             <div className="relative z-10">
-              <img 
-                src={PosterBanner} 
-                alt="Rental Car" 
+              <img
+                src={PosterBanner}
+                alt="Rental Car"
                 className="w-full h-auto"
               />
             </div>
