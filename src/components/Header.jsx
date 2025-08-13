@@ -14,12 +14,22 @@ const Header = () => {
             <img 
               src={Logo} 
               alt="WP RENTCAR Logo" 
-              className="h-auto w-14 md:w-24 object-contain"
+              className="h-auto w-12 md:w-24 object-contain"
             />
-            {/* <div>
-              <h1 className="text-2xl font-bold text-primary-700">WP RENTCAR</h1>
-              <p className="text-sm text-gray-600">Rental Mobil Palembang</p>
-            </div> */}
+            {/* Desktop Company Info */}
+            <div className="hidden md:block">
+              <h1 className="text-xl lg:text-2xl font-bold text-primary-700">WP RENTCAR</h1>
+              <p className="text-xs lg:text-sm text-gray-600">Rental Mobil Palembang</p>
+            </div>
+          </div>
+
+          {/* Mobile Center Content */}
+          <div className="flex md:hidden flex-col items-center flex-1 mx-4">
+            <h1 className="text-lg font-bold text-primary-700 leading-tight">WP RENTCAR</h1>
+            <div className="flex items-center space-x-1 text-xs text-gray-600">
+              <MapPin size={12} />
+              <span>Palembang</span>
+            </div>
           </div>
 
           {/* Desktop Navigation */}
@@ -41,7 +51,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden"
+            className="md:hidden flex-shrink-0"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
