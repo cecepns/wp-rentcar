@@ -3,6 +3,8 @@ import Avanza from '../assets/avanza.png';
 import Fortuner from '../assets/fortuner.png';
 import Innova from '../assets/innova.png';
 import Toyota from '../assets/toyota.png';
+import Xenia from '../assets/xenia.png';
+import Sigra from '../assets/sigra.png';
 
 
 const Fleet = () => {
@@ -47,6 +49,26 @@ const Fleet = () => {
       image: Toyota,
       features: ["AC", "Audio System", "Power Steering", "USB Port"]
     },
+    {
+      name: "Daihatsu Xenia",
+      category: "MPV",
+      passengers: 7,
+      transmission: "Manual/Matic",
+      fuel: "Bensin",
+      // price: "280K",
+      image: Xenia,
+      features: ["AC", "Audio System", "Power Steering", "USB Port"]
+    },
+    {
+      name: "Daihatsu Sigra",
+      category: "MPV",
+      passengers: 7,
+      transmission: "Manual/Matic",
+      fuel: "Bensin",
+      // price: "270K",
+      image: Sigra,
+      features: ["AC", "Audio System", "Power Steering", "Bluetooth"]
+    },
   ];
 
   return (
@@ -68,11 +90,11 @@ const Fleet = () => {
               data-aos-delay={index * 100}
               data-aos-duration="800"
             >
-              <div className="relative">
+              <div className="relative p-4">
                 <img 
                   src={car.image} 
                   alt={car.name}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute top-4 left-4">
                   <span className="bg-primary-600 text-white px-3 py-1 rounded-full text-sm font-medium">
@@ -120,10 +142,10 @@ const Fleet = () => {
                 </div>
 
                 <div className="flex items-center justify-between">
-                  <div>
+                  {/* <div>
                     <span className="text-3xl font-bold text-primary-600">{car.price}</span>
                     <span className="text-gray-600">/hari</span>
-                  </div>
+                  </div> */}
                   <a 
                     href={`https://wa.me/6281350002354?text=Halo, saya tertarik untuk menyewa ${car.name}`}
                     target="_blank"

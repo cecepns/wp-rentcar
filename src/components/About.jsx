@@ -1,5 +1,5 @@
 import { Award, Users, Car, Clock } from 'lucide-react';
-import Poster from '../assets/poster.png';
+import Logo from '../assets/logo.jpeg';
 
 const About = () => {
   const stats = [
@@ -77,7 +77,7 @@ const About = () => {
           {/* Right Content - Image */}
           <div className="relative" data-aos="fade-left">
             <img 
-              src={Poster} 
+              src={Logo} 
               alt="About WP RENTCAR" 
               className="w-full h-auto rounded-2xl shadow-xl"
             />

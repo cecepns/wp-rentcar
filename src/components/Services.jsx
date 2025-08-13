@@ -1,4 +1,4 @@
-import { Car, Users, MapPin, Clock, Shield, Headphones } from 'lucide-react';
+import { Car, Users, MapPin, Clock, DollarSign, Headphones } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -6,19 +6,19 @@ const Services = () => {
       icon: <Car className="text-primary-600" size={48} />,
       title: "Rental Harian",
       description: "Sewa mobil untuk kebutuhan harian dengan tarif terjangkau dan fleksibel.",
-      features: ["Driver berpengalaman", "BBM termasuk", "Asuransi lengkap"]
+      features: ["Driver berpengalaman", "BBM termasuk"]
     },
     {
       icon: <Users className="text-primary-600" size={48} />,
       title: "Rental Bulanan",
       description: "Paket rental bulanan dengan harga spesial untuk kebutuhan jangka panjang.",
-      features: ["Harga lebih hemat", "Maintenance gratis", "Penggantian unit"]
+      features: ["Harga lebih hemat", "Penggantian unit"]
     },
     {
       icon: <MapPin className="text-primary-600" size={48} />,
       title: "Antar Jemput",
-      description: "Layanan antar jemput ke lokasi Anda di seluruh area Palembang.",
-      features: ["Gratis antar jemput", "Tepat waktu", "Area coverage luas"]
+      description: "Siap melayani antar jemput bandara-Hotel-stasiun- pelabuhan-rumah dan lain lain",
+      features: ["Tepat waktu", "Area coverage luas", "Layanan fleksibel"]
     },
     {
       icon: <Clock className="text-primary-600" size={48} />,
@@ -27,10 +27,10 @@ const Services = () => {
       features: ["Emergency support", "Bantuan teknis", "Customer service"]
     },
     {
-      icon: <Shield className="text-primary-600" size={48} />,
-      title: "Asuransi Lengkap",
-      description: "Semua unit dilengkapi asuransi comprehensive untuk keamanan Anda.",
-      features: ["All risk insurance", "Perlindungan penuh", "Klaim mudah"]
+      icon: <DollarSign className="text-primary-600" size={48} />,
+      title: "Best Price",
+      description: "Jaminan Harga Terbaik & Nego sampai Deal",
+      features: ["Dapatkan harga sewa mobil yang ramah di kantong", "Bisa nego sesuai kebutuhan anda", "Harga terjangkau"]
     },
     {
       icon: <Headphones className="text-primary-600" size={48} />,

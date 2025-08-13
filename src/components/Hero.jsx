@@ -21,10 +21,6 @@ const Hero = () => {
             {/* Features */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 lg:gap-4 mb-6 lg:mb-8">
               <div className="flex items-center space-x-2 lg:space-x-3">
-                <Shield className="text-yellow-300 flex-shrink-0" size={20} />
-                <span className="text-sm lg:text-base">Asuransi Lengkap</span>
-              </div>
-              <div className="flex items-center space-x-2 lg:space-x-3">
                 <Clock className="text-yellow-300 flex-shrink-0" size={20} />
                 <span className="text-sm lg:text-base">24/7 Support</span>
               </div>
