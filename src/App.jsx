@@ -33,7 +33,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App overflow-x-hidden">
+    <div className="App overflow-x-hidden bg-soft-gradient min-h-screen">
       <Header />
       <Hero />
       <Services />

@@ -72,7 +72,7 @@ const Fleet = () => {
   ];
 
   return (
-    <section id="fleet" className="py-20 bg-white">
+    <section id="fleet" className="py-20 bg-gradient-to-br from-slate-50 to-slate-100 pattern-grid relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Armada Kami</h2>
@@ -85,7 +85,7 @@ const Fleet = () => {
           {cars.map((car, index) => (
             <div 
               key={index}
-              className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-lg card-hover card-animate"
+              className="glass-effect border border-white/20 rounded-xl overflow-hidden shadow-lg card-hover card-animate"
               data-aos="fade-up"
               data-aos-delay={index * 100}
               data-aos-duration="800"

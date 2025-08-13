@@ -2,7 +2,7 @@ import { Phone, MapPin, Clock, Mail } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-gradient-to-br from-slate-50 via-white to-slate-100 pattern-grid relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Hubungi Kami</h2>
@@ -88,7 +88,7 @@ const Contact = () => {
 
           {/* Map or Additional Info */}
           <div data-aos="fade-left">
-            <div className="bg-gray-50 p-8 rounded-2xl">
+            <div className="section-bg p-8 rounded-2xl">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Mengapa Memilih WP RENTCAR?</h3>
               
               <div className="space-y-6">

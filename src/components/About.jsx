@@ -26,18 +26,18 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-gray-50">
+    <section id="about" className="py-20 gradient-bg relative">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div data-aos="fade-right">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Tentang WP RENTCAR</h2>
-            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+            <h2 className="text-4xl font-bold text-white mb-6">Tentang WP RENTCAR</h2>
+            <p className="text-lg text-white mb-6 leading-relaxed">
               WP RENTCAR adalah perusahaan rental mobil terpercaya di Palembang yang telah 
               melayani ribuan pelanggan dengan komitmen memberikan pelayanan terbaik dan 
               kendaraan berkualitas tinggi.
             </p>
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+            <p className="text-lg text-white mb-8 leading-relaxed">
               Dengan pengalaman lebih dari 5 tahun, kami memahami kebutuhan perjalanan Anda 
               dan menyediakan solusi transportasi yang aman, nyaman, dan terpercaya untuk 
               berbagai keperluan bisnis maupun wisata.
@@ -49,8 +49,8 @@ const About = () => {
                   <div className="w-2 h-2 bg-white rounded-full"></div>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Kendaraan Terawat</h4>
-                  <p className="text-gray-600">Semua kendaraan menjalani perawatan rutin dan pemeriksaan berkala</p>
+                  <h4 className="font-semibold text-white">Kendaraan Terawat</h4>
+                  <p className="text-white">Semua kendaraan menjalani perawatan rutin dan pemeriksaan berkala</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
@@ -58,8 +58,8 @@ const About = () => {
                   <div className="w-2 h-2 bg-white rounded-full"></div>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Driver Berpengalaman</h4>
-                  <p className="text-gray-600">Tim driver profesional yang menguasai rute di Palembang dan sekitarnya</p>
+                  <h4 className="font-semibold text-white">Driver Berpengalaman</h4>
+                  <p className="text-white">Tim driver profesional yang menguasai rute di Palembang dan sekitarnya</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
@@ -67,8 +67,8 @@ const About = () => {
                   <div className="w-2 h-2 bg-white rounded-full"></div>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Harga Kompetitif</h4>
-                  <p className="text-gray-600">Tarif yang bersaing dengan kualitas pelayanan premium</p>
+                  <h4 className="font-semibold text-white">Harga Kompetitif</h4>
+                  <p className="text-white">Tarif yang bersaing dengan kualitas pelayanan premium</p>
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@ const About = () => {
             {stats.map((stat, index) => (
               <div 
                 key={index}
-                className="text-center bg-white p-8 rounded-xl shadow-lg card-hover card-animate"
+                className="text-center glass-effect p-8 rounded-xl shadow-lg card-hover card-animate"
                 data-aos="fade-up"
                 data-aos-delay={index * 100}
                 data-aos-duration="800"

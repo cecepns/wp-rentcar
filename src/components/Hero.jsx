@@ -3,7 +3,7 @@ import PosterBanner from '../assets/poster-banner.png';
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-28 pb-14 md:pb-20 min-h-screen gradient-bg flex items-center">
+    <section id="home" className="pt-28 pb-14 md:pb-20 min-h-screen gradient-bg flex items-center relative overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-4 lg:gap-12 items-center">
           {/* Left Content */}

@@ -41,7 +41,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-gray-50/50 pattern-dots relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Layanan Kami</h2>
@@ -55,7 +55,7 @@ const Services = () => {
           {services.map((service, index) => (
             <div 
               key={index}
-              className="bg-white p-8 rounded-xl shadow-lg card-hover card-animate"
+              className="glass-effect p-8 rounded-xl shadow-lg card-hover card-animate"
               data-aos="fade-up"
               data-aos-delay={index * 100}
               data-aos-duration="800"
